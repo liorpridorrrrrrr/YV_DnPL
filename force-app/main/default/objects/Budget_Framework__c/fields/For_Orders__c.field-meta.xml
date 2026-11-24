@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>For_Orders__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>DM-Budget_Framework | D-039 (draft) | Lior 12.11.2026 | Legacy new_is_for_reservations.</description>
+    <description>DM-Budget_Framework | D-039 (draft) | Lior 12.11.2026 | Legacy new_is_for_reservations</description>
     <label>For Orders and Study Days</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

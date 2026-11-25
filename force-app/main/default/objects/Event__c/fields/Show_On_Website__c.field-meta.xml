@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Show_On_Website__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>YV20-247 | Doc 3 3.2.1 | Show On Website. Legacy new_event_reservations.new_show_on_website.</description>
+    <externalId>false</externalId>
+    <label>Show On Website</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

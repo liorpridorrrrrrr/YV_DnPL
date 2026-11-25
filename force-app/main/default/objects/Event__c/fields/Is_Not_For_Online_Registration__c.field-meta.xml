@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Not_For_Online_Registration__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>YV20-247 | Doc 3 3.2.1 | Not Open For Online Registration. Legacy new_event_reservations.new_is_not_for_online_registration.</description>
+    <externalId>false</externalId>
+    <label>Not Open For Online Registration</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

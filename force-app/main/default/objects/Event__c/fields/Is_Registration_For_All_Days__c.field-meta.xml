@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Registration_For_All_Days__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>YV20-247 | Doc 3 3.2.1 | Registration For All Days. Legacy new_event_reservations.new_is_registration_for_all_days.</description>
+    <externalId>false</externalId>
+    <label>Registration For All Days</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

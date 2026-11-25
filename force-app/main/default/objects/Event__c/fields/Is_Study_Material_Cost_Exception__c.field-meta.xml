@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Study_Material_Cost_Exception__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>YV20-247 | Doc 3 3.2.1 | Approved Exception. Legacy new_event_reservations.new_is_study_material_cost_exception.</description>
+    <externalId>false</externalId>
+    <label>Approved Exception</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

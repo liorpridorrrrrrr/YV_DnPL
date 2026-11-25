@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>האם האירוע נעול</label>
+    <name>Is_Event_Reservation_Locked__c</name>
+</CustomFieldTranslation>

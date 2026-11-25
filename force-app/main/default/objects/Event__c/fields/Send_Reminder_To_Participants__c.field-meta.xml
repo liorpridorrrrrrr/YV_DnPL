@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Reminder_To_Participants__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>YV20-247 | Doc 3 3.2.1 | Send Reminder To Participants. Legacy new_event_reservations.new_send_reminder_to_participants.</description>
+    <externalId>false</externalId>
+    <label>Send Reminder To Participants</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

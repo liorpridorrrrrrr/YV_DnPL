@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Hide_Training_Info__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>YV20-247 | Doc 3 3.2.1 | Hide Additional Training Info. Legacy new_event_reservations.new_is_hide_training_info.</description>
+    <externalId>false</externalId>
+    <label>Hide Additional Training Info</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

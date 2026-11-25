@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Show_Dietary_Needs__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>YV20-247 | Doc 3 3.2.1 | Show Dietary Preferences. Legacy new_event_reservations.new_is_show_dietary_needs.</description>
+    <externalId>false</externalId>
+    <label>Show Dietary Preferences</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

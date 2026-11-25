@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Show_Hotel_Q__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>YV20-247 | Doc 3 3.2.1 | Show Hotel Questions. Legacy new_event_reservations.new_is_show_hotel_q.</description>
+    <externalId>false</externalId>
+    <label>Show Hotel Questions</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

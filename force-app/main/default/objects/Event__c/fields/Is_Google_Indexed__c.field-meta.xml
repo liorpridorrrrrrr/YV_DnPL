@@ -3,8 +3,8 @@
     <fullName>Is_Google_Indexed__c</fullName>
     <defaultValue>false</defaultValue>
     <description>YV20-247 | Doc 3 3.2.1 | Google Indexed. Legacy new_event_reservations.new_is_google_indexed.</description>
-    <externalId>false</externalId>
     <label>Google Indexed</label>
     <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

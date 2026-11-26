@@ -3,8 +3,8 @@
     <fullName>Send_Feedback_To_Participants__c</fullName>
     <defaultValue>false</defaultValue>
     <description>YV20-247 | Doc 3 3.2.1 | Send Feedback Survey To Participants. Legacy new_event_reservations.new_send_feedback_to_participants.</description>
-    <externalId>false</externalId>
     <label>Send Feedback Survey To Participants</label>
     <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

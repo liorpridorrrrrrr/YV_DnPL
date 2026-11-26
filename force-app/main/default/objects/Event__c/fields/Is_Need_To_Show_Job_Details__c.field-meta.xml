@@ -3,8 +3,8 @@
     <fullName>Is_Need_To_Show_Job_Details__c</fullName>
     <defaultValue>false</defaultValue>
     <description>YV20-247 | Doc 3 3.2.1 | Show Job Details. Legacy new_event_reservations.new_is_need_to_show_job_details.</description>
-    <externalId>false</externalId>
     <label>Show Job Details</label>
     <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

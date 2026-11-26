@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Status__c</fullName>
+    <description>YV20-247 | Doc 3 3.2.1 | Payment status. Legacy new_event_reservations.new_payment_status (picklist).</description>
+    <label>Payment Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Paid</fullName>
+                <default>false</default>
+                <label>Paid</label>
+            </value>
+            <value>
+                <fullName>Not Paid</fullName>
+                <default>false</default>
+                <label>Not Paid</label>
+            </value>
+            <value>
+                <fullName>Paid and Fully Credited</fullName>
+                <default>false</default>
+                <label>Paid and Fully Credited</label>
+            </value>
+            <value>
+                <fullName>Paid and Partially Credited</fullName>
+                <default>false</default>
+                <label>Paid and Partially Credited</label>
+            </value>
+            <value>
+                <fullName>Paid (Internal Settlement)</fullName>
+                <default>false</default>
+                <label>Paid (Internal Settlement)</label>
+            </value>
+            <value>
+                <fullName>Not Paid (Internal Settlement)</fullName>
+                <default>false</default>
+                <label>Not Paid (Internal Settlement)</label>
+            </value>
+            <value>
+                <fullName>Place Reserved - No Payment Needed</fullName>
+                <default>false</default>
+                <label>Place Reserved - No Payment Needed</label>
+            </value>
+            <value>
+                <fullName>Awaiting Payment</fullName>
+                <default>false</default>
+                <label>Awaiting Payment</label>
+            </value>
+            <value>
+                <fullName>No Payment Needed</fullName>
+                <default>false</default>
+                <label>No Payment Needed</label>
+            </value>
+            <value>
+                <fullName>Payment Commitment</fullName>
+                <default>false</default>
+                <label>Payment Commitment</label>
+            </value>
+            <value>
+                <fullName>Voucher Received</fullName>
+                <default>false</default>
+                <label>Voucher Received</label>
+            </value>
+            <value>
+                <fullName>Payment Failed</fullName>
+                <default>false</default>
+                <label>Payment Failed</label>
+            </value>
+            <value>
+                <fullName>Account Issued</fullName>
+                <default>false</default>
+                <label>Account Issued</label>
+            </value>
+            <value>
+                <fullName>Partially Paid</fullName>
+                <default>false</default>
+                <label>Partially Paid</label>
+            </value>
+            <value>
+                <fullName>Account Cancelled</fullName>
+                <default>false</default>
+                <label>Account Cancelled</label>
+            </value>
+            <value>
+                <fullName>Account Partially Issued</fullName>
+                <default>false</default>
+                <label>Account Partially Issued</label>
+            </value>
+            <value>
+                <fullName>Transferred to Finance</fullName>
+                <default>false</default>
+                <label>Transferred to Finance</label>
+            </value>
+            <value>
+                <fullName>To Be Charged in Package</fullName>
+                <default>false</default>
+                <label>To Be Charged in Package</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

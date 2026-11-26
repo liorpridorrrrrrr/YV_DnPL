@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Hebrew Year --></label>
+    <name>Hebrew_Year__c</name>
+    <picklistValues>
+        <masterLabel>5780</masterLabel>
+        <translation><!-- 5780 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5781</masterLabel>
+        <translation><!-- 5781 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5782</masterLabel>
+        <translation><!-- 5782 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5783</masterLabel>
+        <translation><!-- 5783 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5784</masterLabel>
+        <translation><!-- 5784 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5785</masterLabel>
+        <translation><!-- 5785 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5786</masterLabel>
+        <translation><!-- 5786 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5787</masterLabel>
+        <translation><!-- 5787 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5788</masterLabel>
+        <translation><!-- 5788 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5789</masterLabel>
+        <translation><!-- 5789 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

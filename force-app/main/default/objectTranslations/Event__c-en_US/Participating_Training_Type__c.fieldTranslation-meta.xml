@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Participating Training Type --></label>
+    <name>Participating_Training_Type__c</name>
+    <picklistValues>
+        <masterLabel>Trainee</masterLabel>
+        <translation><!-- Trainee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Haredi Trainee</masterLabel>
+        <translation><!-- Haredi Trainee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overseas Trainee</masterLabel>
+        <translation><!-- Overseas Trainee --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

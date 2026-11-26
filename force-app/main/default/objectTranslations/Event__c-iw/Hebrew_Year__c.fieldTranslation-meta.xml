@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>שנה עברית</label>
+    <name>Hebrew_Year__c</name>
+    <picklistValues>
+        <masterLabel>5780</masterLabel>
+        <translation>תש&quot;פ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5781</masterLabel>
+        <translation>תשפ&quot;א</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5782</masterLabel>
+        <translation>תשפ&quot;ב</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5783</masterLabel>
+        <translation>תשפ&quot;ג</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5784</masterLabel>
+        <translation>תשפ&quot;ד</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5785</masterLabel>
+        <translation>תשפ&quot;ה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5786</masterLabel>
+        <translation>תשפ&quot;ו</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5787</masterLabel>
+        <translation>תשפ&quot;ז</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5788</masterLabel>
+        <translation>תשפ&quot;ח</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5789</masterLabel>
+        <translation>תשפ&quot;ט</translation>
+    </picklistValues>
+</CustomFieldTranslation>

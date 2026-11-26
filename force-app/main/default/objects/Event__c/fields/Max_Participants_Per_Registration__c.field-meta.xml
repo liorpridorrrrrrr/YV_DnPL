@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Participants_Per_Registration__c</fullName>
+    <description>YV20-247 | Doc 3 3.2.1 | Maximum participants per single registration. Legacy new_event_reservations.new_max_participants_per_registration (int).</description>
+    <label>Max Participants Per Registration</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

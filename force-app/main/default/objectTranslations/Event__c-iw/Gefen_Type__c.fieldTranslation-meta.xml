@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>סוג הגפן</label>
+    <name>Gefen_Type__c</name>
+    <picklistValues>
+        <masterLabel>1</masterLabel>
+        <translation>תכנית גפן 14605 - פרוייקט י&quot;א משרד החינוך</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2</masterLabel>
+        <translation>תכנית גפן 14640- ניידות חינוכיות עד תשפ&quot;ה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3</masterLabel>
+        <translation>תכנית גפן 14556- ימי עיון לתלמידים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4</masterLabel>
+        <translation>תכנית גפן 2774- בשבילי הזיכרון- תכנית למורים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5</masterLabel>
+        <translation>מבצעים פדגוגים- משולם ע&quot;י משרד החינוך</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6</masterLabel>
+        <translation>מבצעים פדגוגים- משולם ע&quot;י המזמין</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7</masterLabel>
+        <translation>תכנית גפן 56743 - ניידות חינוכיות</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8</masterLabel>
+        <translation>תכנית גפן- השת&apos; חדר מורים</translation>
+    </picklistValues>
+</CustomFieldTranslation>

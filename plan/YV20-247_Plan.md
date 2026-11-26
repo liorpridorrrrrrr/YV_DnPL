@@ -41,8 +41,8 @@ Types follow D-013: nvarchar to Text, int to Number(18,0), picklist to Picklist,
 | 1 | Event Name | `Name` | שם | Text(80) | `new_name` | 3.2.1 |
 | 2 | Event Type | `Event_Type__c` | סוג אירוע | Picklist (12 values) | `new_event_type` | 3.2.1, 4.1 |
 | 3 | Registration Product | `Product__c` | מוצר ההרשמה | Lookup(Product2) | none | 3.2.1, C2, 5.5 |
-| 4 | Event Status | `Event_Status__c` | סטטוס אירוע | Picklist (7 values) | `new_event_reservation_status` | 3.2.1 |
-| 5 | Payment Status | `Payment_Status__c` | סטטוס תשלום | Picklist (19 values) | `new_payment_status` | 3.2.1 |
+| 4 | Event Status | `Event_Status__c` | סטטוס אירוע | Picklist (6 values, as in legacy) | `new_event_reservation_status` | 3.2.1; built 26.11.2026, English values |
+| 5 | Payment Status | `Payment_Status__c` | סטטוס תשלום | Picklist (19 values) | `new_payment_status` | 3.2.1; built 26.11.2026, English values |
 | 6 | Max Participants Per Event | `Max_Participants_Per_Event__c` | מקסימם משתתפים לאירוע | Number(18,0) | `new_max_participants_per_event` | 3.2.1, 3.2.5; built 26.11.2026 |
 | 7 | Legacy ID | `Legacy_ID__c` | מזהה מערכת ישנה | Text(255), External ID | none | convention |
 
@@ -82,8 +82,8 @@ Date and time fields use the three Salesforce types only: `Date` (no time), `Dat
 | First Activity Day | `First_Activity_Day__c` | תאריך פעילות ראשון | Date | `new_first_activity_day`; V14-01 |
 | Last Activity Day | `Last_Activity_Day__c` | תאריך פעילות אחרון | Date | `new_last_activity_day` |
 | Start Time / End Time | `Start_Time__c`, `End_Time__c` | שעת פתיחה, שעת סיום | Time | DD 5.5 |
-| Frequency | `Frequency__c` | תדירות | Picklist: Daily; Weekly; Every Two Weeks; Monthly; Manual | `new_frequency` |
-| Day Of Week | `Day_Of_Week__c` | יום בשבוע | Picklist: Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday | `new_day_of_week` |
+| Frequency | `Frequency__c` | תדירות | Picklist: Daily; Weekly; Every Two Weeks; Monthly; Manual | `new_frequency`; built 26.11.2026 |
+| Day Of Week | `Day_Of_Week__c` | יום בשבוע | Picklist: Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday | `new_day_of_week`; built 26.11.2026 |
 | Recurrence Horizon (months) | `Recurrence_Horizon_Months__c` | אופק פתיחה בחודשים | Number(18,0) | DD 5.1 |
 | Journey Start / End Date | `Journey_Start_Date__c`, `Journey_End_Date__c` | תאריך תחילת מסע, תאריך סיום מסע | Date | `new_journey_start_date`, `new_journey_end_date` |
 | Duration Hours | `Duration_Hours__c` | אורך ההשתלמות (בשעות) | Number(18,0) | `new_duration_hours`; built 26.11.2026 |
@@ -91,7 +91,7 @@ Date and time fields use the three Salesforce types only: `Date` (no time), `Dat
 | Default Location | `Default_Location__c` | מיקום יום פעילות (ברירת מחדל) | Lookup(YV_Location__c) | `new_default_activity_day_location` |
 | Default Resource | `Default_Resource__c` | משאב ברית מחדל | Lookup(B25__Resource__c) | `new_default_resource` (legacy typo kept) |
 | Event Subject | `Event_Subject__c` | נושא הארוע | Lookup(Activity_Day_Subject__c) | `new_event_subject_lu` (legacy typo kept) |
-| Target Audience | `Target_Audience__c` | קהל יעד | Picklist (values from legacy `new_age_group`) | `new_age_group`; DD 5.1 |
+| Target Audience | `Target_Audience__c` | קהל יעד | Picklist (values from legacy `new_age_group`) | `new_age_group`; DD 5.1; built 26.11.2026 as a local picklist, numbered 1 to 48 (many values have no simple English translation). The existing global value set `Age_Group` has the same 48 Hebrew values and is not used |
 | Is Open To Public | `Is_Open_To_Public__c` | פתוח לקהל הרחב | Checkbox | DD 5.1 |
 | Event Code | `Event_Code__c` | קוד אירוע | Text(255) | `new_event_code`; A14-09 prefix |
 | Budget Framework | `Budget_Framework__c` | מסגרת תקציבית | Lookup(Budget_Framework__c) | `new_budget_framework`; DD 3.3.6 |
@@ -106,7 +106,7 @@ Date and time fields use the three Salesforce types only: `Date` (no time), `Dat
 | Linked Event | `Linked_Event__c` | אירוע מקושר | Lookup(Event__c) | DD 3.2.1.1, 5.4 |
 | Linked Opportunity | `Linked_Opportunity__c` | הזמנה מקושרת | Lookup(Opportunity) | DD 3.2.1.1 |
 | Cancellation Date | `Cancellation_Date__c` | תאריך ביטול האירוע | Date | `new_cancellation_date` |
-| Cancellation Reason | `Cancellation_Reason__c` | סיבה לביטול האירוע | Picklist (merge with the B25 list) | `new_cancellation_reason`; V14-03 |
+| Cancellation Reason | `Cancellation_Reason__c` | סיבה לביטול האירוע | Picklist (merge with the B25 list) | `new_cancellation_reason`; V14-03; built 26.11.2026 as a local picklist, numbered 1 to 20. The existing global value set `Cancel_Reason` has the same 20 Hebrew values and is not used |
 | Cancelled By | `Cancelled_By__c` | שם מבטל האירוע | Lookup(User) | `new_cancelled_by` |
 | Is Locked | `Is_Locked__c` | האם האירוע נעול | Checkbox | `new_is_event_reservation_locked` |
 | Source | `Source__c` | מקור האירוע | Picklist (values to decide) | DD 5.2 |
@@ -115,11 +115,24 @@ Date and time fields use the three Salesforce types only: `Date` (no time), `Dat
 | Show On Website | `Show_On_Website__c` | הראה באתר | Checkbox | `new_show_on_website`; A14-08 |
 | Attendance Management Enabled | `Attendance_Management_Enabled__c` | ניהול נוכחות שמי | Checkbox | DD 5.7 |
 | Education Ministry Symbol | `Education_Ministry_Symbol__c` | סמל השתלמות במשרד החינוך | Text(255) | DD 5.6 |
-| Region | `Region__c` | אזור | Picklist (source to decide) | DD 5.6; legacy `new_district` is a candidate |
+| Region | `Region__c` | אזור | Picklist (source to decide) | DD 5.6; legacy `new_district` is a candidate; the legacy `new_district` was built separately as `Geographic_District__c`, so this row stays open (DD 5.6) |
 | Additional Participants | `Additional_Participants__c` | מספר מבקרים נוספים | Number(18,0) | `new_num_additional_participants`; DD 5.5; built 26.11.2026 |
 | Total Participants | `Total_Participants__c` | סה"כ נרשמים | Number(18,0) | `new_total_participants`; built 26.11.2026 as a plain number, calculation later (Q11) |
 | Divisions For Registration | `Divisions_For_Registration__c` | כמות חטיבות לרישום | Number(18,0) | `new_divisions_for_registration`; built 26.11.2026 |
 | Coupon Discount | `Coupon_Discount__c` | הנחת קופון | Number(18,2) | `new_coupon_discount`; built 26.11.2026 as Number, not Currency or Percent, until the coupon task decides amount vs percent |
+| Exchange Rate | `Exchange_Rate__c` | שער המרה | Number(16,2) | `exchangerate` (Dynamics system field); built 26.11.2026 at Etti's request, 2 decimals as chosen (legacy may hold more) |
+| Discount Type | `Discount_Type__c` | סוג הנחה | Picklist, numbered 1 to 5 | `new_discount_type`; built 26.11.2026; numbered because "משואה לתקומה" has no simple English translation |
+| Geographic District | `Geographic_District__c` | מחוז גאוגרפי | Picklist, numbered 1 to 18 | `new_district`; built 26.11.2026; numbered, values mix districts and school sectors |
+| Training Type | `Training_Type__c` | סוג השתלמות | Picklist: Haredi; Regular; Colleges | `new_training_type`; built 26.11.2026 |
+| Gefen Type | `Gefen_Type__c` | סוג הגפן | Picklist, numbered 1 to 8 | `new_gefen_type`; built 26.11.2026; numbered, long program names with codes |
+| Hebrew Year | `Hebrew_Year__c` | שנה עברית | Picklist: 5780 to 5789 | `new_hebrew_year`; built 26.11.2026; Hebrew letters as the translation (תש"פ to תשפ"ט) |
+| Default Hotel | `Default_Hotel__c` | מלון (ברירת מחדל) | Picklist, numbered 1 to 7 | `new_hotel`; built 26.11.2026; numbered, proper names. The DD replaces hotels with Event Hotel Allocation, so confirm it stays |
+| Location Classification | `Location_Classification__c` | סיווג לפי מיקום | Picklist: Online; In Person; Hybrid; Online Asynchronous | `new_location_classification`; built 26.11.2026. Not the same as Format (In Person; Zoom; Hybrid) |
+| Malam Code Expenses | `Malam_Code__c` | קוד מל"מ - הוצאות | Picklist: 11 numeric codes | `new_malam_code`; built 26.11.2026; values are the codes |
+| Participating Training Type | `Participating_Training_Type__c` | סוג משתלם | Picklist: Trainee; Haredi Trainee; Overseas Trainee | `new_participating_training_type`; built 26.11.2026 |
+| Training Classification | `Training_Classification__c` | סיווג ההשתלמות | Picklist, numbered 1 to 13 | `new_training_classification`; built 26.11.2026; numbered, several values have no simple translation |
+| Work Details Type | `Work_Details_Type__c` | סוג פרטי עבודה | Picklist: Teachers; Students; Police | `new_work_details_type`; built 26.11.2026 |
+| Gregorian Year | `Gregorian_Year__c` | שנה לועזית | Picklist: 1995 to 2030 | `new_year`; built 26.11.2026 |
 | Internal Name | `Internal_Name__c` | שם לשימוש פנימי | Text(255) | `new_internal_name` |
 | Subtitle | `Subtitle__c` | תת כותרת | Text(255) | `new_subtitle` |
 | Description | `Description__c` | תקציר | Long Text Area(32000) | `new_description` |
@@ -129,6 +142,8 @@ Date and time fields use the three Salesforce types only: `Date` (no time), `Dat
 | Description for Social | `Description_For_Social__c` | תיאור לרשתות חברתיות | Text Area (255) | `new_description_for_social`; Text Area, not Text, so users can enter line breaks and size the box on the layout (Etti, 26.11.2026) |
 | Is Google Indexed | `Is_Google_Indexed__c` | אינדוקס בגוגל | Checkbox | `new_is_google_indexed` |
 | Registration Form | `Registration_Form__c` | טופס הרשמה | Target undefined | DD 3.2.1 |
+
+Picklist value rules (26.11.2026): API value and label are English where each value has a simple English translation. If any value in a field has none, the whole field uses 1, 2, 3 and so on for value and label. The Hebrew text lives only in the iw translation, with `"` written as `&quot;`.
 
 Also Phase 2, from the DD, not fields: conference type (ישראלי, בינלאומי, חרדי) and seminar type (סגור, פתוח, מסע) are one subtype picklist or two (Q1).
 
@@ -200,9 +215,9 @@ Tags follow D-029. None blocks the Phase 1 build except the org check.
 - **Resource needs:** `new_is_museum_required`, `new_is_campus_required`, `new_is_big_questions_required`, `new_is_need_event_schedule` (resource scheduling).
 - **Contact details and email:** `new_*_contact`, `new_from_email`. Contact name, email and phone: no field on `Event__c`; the record page shows them from the linked Contact (Neev's rule for the order, 19.10.2026, see `06_Opportunity.md`), unless a valuable reason is shown. Before accepting, compare the legacy values with the Contact's own on a sample. `new_from_email`: Email type, check Org-Wide Email Addresses first.
 - **Zoom:** `new_is_zoom_registration`, `new_zoom_meeting_number` (Text, not Number, so leading zeros survive), `new_is_send_link_in_zoom_mail`.
-- **Replaced by new objects:** `new_hotel`, `new_supplier` (Event Hotel Allocation and Event Shuttle, register rows 44 and 45).
-- **System fields:** `exchangerate`, `transactioncurrencyid`.
-- **Not clear:** `new_gefen_type`, `new_is_claims_donor`, `new_petty_cash`, `new_malam_code`, `new_is_tuition`, `new_year`, `new_hebrew_year` (candidate for a later task or a drop; ask Anna).
+- **Replaced by new objects:** `new_hotel` (also built as the picklist `Default_Hotel__c`, to confirm), `new_supplier` (Event Hotel Allocation and Event Shuttle, register rows 44 and 45).
+- **System fields:** `transactioncurrencyid`. (`exchangerate` is built as `Exchange_Rate__c`, see section 4.)
+- **Not clear:** `new_is_claims_donor`, `new_petty_cash`, `new_is_tuition` (`new_gefen_type`, `new_malam_code`, `new_year`, `new_hebrew_year` are now built, see section 4) (candidate for a later task or a drop; ask Anna).
 
 ## 9. Work steps
 

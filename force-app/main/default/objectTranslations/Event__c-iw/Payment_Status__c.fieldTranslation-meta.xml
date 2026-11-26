@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>סטטוס תשלום</label>
+    <name>Payment_Status__c</name>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation>ללא</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paid</masterLabel>
+        <translation>שולם</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Paid</masterLabel>
+        <translation>טרם שולם</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paid and Fully Credited</masterLabel>
+        <translation>שולם ובוצע זיכוי מלא</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paid and Partially Credited</masterLabel>
+        <translation>שולם ובוצע זיכוי חלקי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paid (Internal Settlement)</masterLabel>
+        <translation>שולם (התחשבנות פנימית)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Paid (Internal Settlement)</masterLabel>
+        <translation>טרם שולם (התחשבנות פנימית)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Place Reserved - No Payment Needed</masterLabel>
+        <translation>שמירת מקום - אין צורך בתשלום</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Awaiting Payment</masterLabel>
+        <translation>ממתין לתשלום</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Payment Needed</masterLabel>
+        <translation>אין צורך בתשלום</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Commitment</masterLabel>
+        <translation>התחייבות לתשלום</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Voucher Received</masterLabel>
+        <translation>התקבל וואוצ&apos;ר</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Failed</masterLabel>
+        <translation>תשלום נכשל</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Account Issued</masterLabel>
+        <translation>הופק חשבון</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partially Paid</masterLabel>
+        <translation>שולם חלקית</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Account Cancelled</masterLabel>
+        <translation>חשבון בוטל</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Account Partially Issued</masterLabel>
+        <translation>הופק חשבון חלקית</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transferred to Finance</masterLabel>
+        <translation>הועבר לטיפול כספים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>To Be Charged in Package</masterLabel>
+        <translation>לחיוב בחבילה</translation>
+    </picklistValues>
+</CustomFieldTranslation>

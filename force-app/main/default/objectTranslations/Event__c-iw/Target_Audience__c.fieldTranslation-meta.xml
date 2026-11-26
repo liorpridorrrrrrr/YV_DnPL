@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>קהל יעד</label>
+    <name>Target_Audience__c</name>
+    <picklistValues>
+        <masterLabel>1</masterLabel>
+        <translation>יסודי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2</masterLabel>
+        <translation>מנהיגות צעירה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3</masterLabel>
+        <translation>יסודי וחט&quot;ב</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4</masterLabel>
+        <translation>כוחות הבטחון - עובדים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5</masterLabel>
+        <translation>צה&quot;ל כניסה לקבע</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6</masterLabel>
+        <translation>חט&quot;ע</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7</masterLabel>
+        <translation>מעצבי דעת קהל</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8</masterLabel>
+        <translation>חט&quot;ב + חט&quot;ע</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>9</masterLabel>
+        <translation>יסודי חט&quot;ב וחט&quot;ע</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10</masterLabel>
+        <translation>מבוגרים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11</masterLabel>
+        <translation>ישיבת הסדר</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12</masterLabel>
+        <translation>לא פורמאלי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>13</masterLabel>
+        <translation>חט&quot;ב</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>14</masterLabel>
+        <translation>יסודי וחט&quot;ע</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15</masterLabel>
+        <translation>מכינה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>16</masterLabel>
+        <translation>נוער חו&quot;ל</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>17</masterLabel>
+        <translation>צה&quot;ל בסיסים גדולים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>18</masterLabel>
+        <translation>מדרשה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>19</masterLabel>
+        <translation>מורים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20</masterLabel>
+        <translation>על תיכון</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>21</masterLabel>
+        <translation>מכללה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>22</masterLabel>
+        <translation>כוחות הביטחון - הכשרות</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>23</masterLabel>
+        <translation>צה&quot;ל הכנת סגל</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>24</masterLabel>
+        <translation>סטודנטים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25</masterLabel>
+        <translation>צה&quot;ל השלמת קצונה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>26</masterLabel>
+        <translation>פרויקט אסירים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>27</masterLabel>
+        <translation>צה&quot;ל נגדים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>28</masterLabel>
+        <translation>צה&quot;ל בה&quot;ד 1</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>29</masterLabel>
+        <translation>צה&quot;ל טירונים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30</masterLabel>
+        <translation>צה&quot;ל הכשרת מפקדים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31</masterLabel>
+        <translation>צה&quot;ל מילואים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>32</masterLabel>
+        <translation>צה&quot;ל הכנה לקצונה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>33</masterLabel>
+        <translation>צה&quot;ל בכירים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>34</masterLabel>
+        <translation>צה&quot;ל חרדים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>35</masterLabel>
+        <translation>שרות לאומי / יחידת הסברה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>36</masterLabel>
+        <translation>תנועות נוער</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>37</masterLabel>
+        <translation>גננות</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>38</masterLabel>
+        <translation>צה&quot;ל סגל מפקדה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>39</masterLabel>
+        <translation>צה&quot;ל סדירים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>40</masterLabel>
+        <translation>צה&quot;ל קורס המשך - מקצוע</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>41</masterLabel>
+        <translation>סמינר</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>42</masterLabel>
+        <translation>צה&quot;ל קצינים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>43</masterLabel>
+        <translation>ללא</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>44</masterLabel>
+        <translation>תלמידים + מורים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>45</masterLabel>
+        <translation>קהילה לומדת</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>46</masterLabel>
+        <translation>מדריכים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>47</masterLabel>
+        <translation>קהל רחב</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>48</masterLabel>
+        <translation>שירות לאומי</translation>
+    </picklistValues>
+</CustomFieldTranslation>

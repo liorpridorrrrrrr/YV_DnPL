@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Type__c</fullName>
+    <description>YV20-247 | Training type. Legacy new_event_reservations.new_training_type (picklist).</description>
+    <label>Training Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Haredi</fullName>
+                <default>false</default>
+                <label>Haredi</label>
+            </value>
+            <value>
+                <fullName>Regular</fullName>
+                <default>false</default>
+                <label>Regular</label>
+            </value>
+            <value>
+                <fullName>Colleges</fullName>
+                <default>false</default>
+                <label>Colleges</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

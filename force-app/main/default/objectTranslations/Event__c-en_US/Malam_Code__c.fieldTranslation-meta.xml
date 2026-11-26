@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Malam Code Expenses --></label>
+    <name>Malam_Code__c</name>
+    <picklistValues>
+        <masterLabel>152</masterLabel>
+        <translation><!-- 152 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1301</masterLabel>
+        <translation><!-- 1301 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1501</masterLabel>
+        <translation><!-- 1501 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1502</masterLabel>
+        <translation><!-- 1502 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1701</masterLabel>
+        <translation><!-- 1701 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1801</masterLabel>
+        <translation><!-- 1801 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2101</masterLabel>
+        <translation><!-- 2101 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2401</masterLabel>
+        <translation><!-- 2401 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2501</masterLabel>
+        <translation><!-- 2501 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2901</masterLabel>
+        <translation><!-- 2901 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3001</masterLabel>
+        <translation><!-- 3001 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

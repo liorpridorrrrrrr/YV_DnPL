@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Location Classification --></label>
+    <name>Location_Classification__c</name>
+    <picklistValues>
+        <masterLabel>Online</masterLabel>
+        <translation><!-- Online --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Person</masterLabel>
+        <translation><!-- In Person --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hybrid</masterLabel>
+        <translation><!-- Hybrid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Online Asynchronous</masterLabel>
+        <translation><!-- Online Asynchronous --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

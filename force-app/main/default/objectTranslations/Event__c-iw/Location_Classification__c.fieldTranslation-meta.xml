@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>סיווג לפי מיקום</label>
+    <name>Location_Classification__c</name>
+    <picklistValues>
+        <masterLabel>Online</masterLabel>
+        <translation>מקוונת</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Person</masterLabel>
+        <translation>פרונטלית</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hybrid</masterLabel>
+        <translation>משולבת</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Online Asynchronous</masterLabel>
+        <translation>מקוונת א-סינכרונית</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -43,7 +43,7 @@ Types follow D-013: nvarchar to Text, int to Number(18,0), picklist to Picklist,
 | 3 | Registration Product | `Product__c` | מוצר ההרשמה | Lookup(Product2) | none | 3.2.1, C2, 5.5 |
 | 4 | Event Status | `Event_Status__c` | סטטוס אירוע | Picklist (7 values) | `new_event_reservation_status` | 3.2.1 |
 | 5 | Payment Status | `Payment_Status__c` | סטטוס תשלום | Picklist (19 values) | `new_payment_status` | 3.2.1 |
-| 6 | Max Participants Per Event | `Max_Participants_Per_Event__c` | מקסימם משתתפים לאירוע | Number(18,0) | `new_max_participants_per_event` | 3.2.1, 3.2.5 |
+| 6 | Max Participants Per Event | `Max_Participants_Per_Event__c` | מקסימם משתתפים לאירוע | Number(18,0) | `new_max_participants_per_event` | 3.2.1, 3.2.5; built 26.11.2026 |
 | 7 | Legacy ID | `Legacy_ID__c` | מזהה מערכת ישנה | Text(255), External ID | none | convention |
 
 Rules from the text that are not fields on `Event__c`:
@@ -71,7 +71,7 @@ Date and time fields use the three Salesforce types only: `Date` (no time), `Dat
 | Label | API name | Hebrew translation | Type | Legacy or DD source |
 |---|---|---|---|---|
 | Min Participants | `Min_Participants__c` | מינימום משתתפים | Number(18,0) | DD 3.2.5 |
-| Max Participants Per Registration | `Max_Participants_Per_Registration__c` | מקסימום משתתפים לרישום בודד | Number(18,0) | `new_max_participants_per_registration`; V14-11 |
+| Max Participants Per Registration | `Max_Participants_Per_Registration__c` | מקסימום משתתפים לרישום בודד | Number(18,0) | `new_max_participants_per_registration`; V14-11; built 26.11.2026 |
 | Is Named Registration | `Is_Named_Registration__c` | רישום שמי | Checkbox | DD 3.2.1, 5.1 |
 | Registration Deadline | `Registration_Deadline__c` | מועד אחרון להרשמה | DateTime | DD 3.2.1 |
 | Closed For Registration | `Is_Closed_For_Registration__c` | סגור לרישום | Checkbox | `new_is_closed_for_registration` |
@@ -86,7 +86,7 @@ Date and time fields use the three Salesforce types only: `Date` (no time), `Dat
 | Day Of Week | `Day_Of_Week__c` | יום בשבוע | Picklist: Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday | `new_day_of_week` |
 | Recurrence Horizon (months) | `Recurrence_Horizon_Months__c` | אופק פתיחה בחודשים | Number(18,0) | DD 5.1 |
 | Journey Start / End Date | `Journey_Start_Date__c`, `Journey_End_Date__c` | תאריך תחילת מסע, תאריך סיום מסע | Date | `new_journey_start_date`, `new_journey_end_date` |
-| Duration Hours | `Duration_Hours__c` | אורך ההשתלמות (בשעות) | Number(18,0) | `new_duration_hours` |
+| Duration Hours | `Duration_Hours__c` | אורך ההשתלמות (בשעות) | Number(18,0) | `new_duration_hours`; built 26.11.2026 |
 | Format | `Format__c` | פורמט | Picklist: In Person; Zoom; Hybrid | DD 5.6 |
 | Default Location | `Default_Location__c` | מיקום יום פעילות (ברירת מחדל) | Lookup(YV_Location__c) | `new_default_activity_day_location` |
 | Default Resource | `Default_Resource__c` | משאב ברית מחדל | Lookup(B25__Resource__c) | `new_default_resource` (legacy typo kept) |
@@ -116,13 +116,17 @@ Date and time fields use the three Salesforce types only: `Date` (no time), `Dat
 | Attendance Management Enabled | `Attendance_Management_Enabled__c` | ניהול נוכחות שמי | Checkbox | DD 5.7 |
 | Education Ministry Symbol | `Education_Ministry_Symbol__c` | סמל השתלמות במשרד החינוך | Text(255) | DD 5.6 |
 | Region | `Region__c` | אזור | Picklist (source to decide) | DD 5.6; legacy `new_district` is a candidate |
-| Additional Participants | `Additional_Participants__c` | מספר מבקרים נוספים | Number(18,0) | `new_num_additional_participants`; DD 5.5 |
+| Additional Participants | `Additional_Participants__c` | מספר מבקרים נוספים | Number(18,0) | `new_num_additional_participants`; DD 5.5; built 26.11.2026 |
+| Total Participants | `Total_Participants__c` | סה"כ נרשמים | Number(18,0) | `new_total_participants`; built 26.11.2026 as a plain number, calculation later (Q11) |
+| Divisions For Registration | `Divisions_For_Registration__c` | כמות חטיבות לרישום | Number(18,0) | `new_divisions_for_registration`; built 26.11.2026 |
+| Coupon Discount | `Coupon_Discount__c` | הנחת קופון | Number(18,2) | `new_coupon_discount`; built 26.11.2026 as Number, not Currency or Percent, until the coupon task decides amount vs percent |
 | Internal Name | `Internal_Name__c` | שם לשימוש פנימי | Text(255) | `new_internal_name` |
 | Subtitle | `Subtitle__c` | תת כותרת | Text(255) | `new_subtitle` |
 | Description | `Description__c` | תקציר | Long Text Area(32000) | `new_description` |
 | Conference Logo | `Logo__c` | לוגו הכנס | Type to decide (URL or file) | DD 5.3 |
 | Title / Description for Google | `Title_For_Google__c`, `Description_For_Google__c` | כותרת לגוגל, תיאור לגוגל | Text(255) | `new_title_for_google`, `new_description_for_google` |
-| Title / Description for Social | `Title_For_Social__c`, `Description_For_Social__c` | כותרת לרשתות חברתיות, תיאור לרשתות חברתיות | Text(255) | `new_title_for_social`, `new_description_for_social` |
+| Title for Social | `Title_For_Social__c` | כותרת לרשתות חברתיות | Text(255) | `new_title_for_social` |
+| Description for Social | `Description_For_Social__c` | תיאור לרשתות חברתיות | Text Area (255) | `new_description_for_social`; Text Area, not Text, so users can enter line breaks and size the box on the layout (Etti, 26.11.2026) |
 | Is Google Indexed | `Is_Google_Indexed__c` | אינדוקס בגוגל | Checkbox | `new_is_google_indexed` |
 | Registration Form | `Registration_Form__c` | טופס הרשמה | Target undefined | DD 3.2.1 |
 
@@ -187,11 +191,15 @@ Tags follow D-029. None blocks the Phase 1 build except the org check.
 ## 8. Later: legacy fields held back (other epics)
 
 - **Form switches:** `new_is_show_*`, `new_is_*_required`, `new_work_details_type` (registration form task).
-- **Message texts:** confirmation, closed registration, deferred payment, signature, bold texts (communications task).
+- **Message texts:** confirmation, closed registration, deferred payment, signature, bold texts (communications task). Recommended Salesforce types, decided with Etti 26.11.2026 (legacy `ntext` becomes Long Text Area(32000); legacy `nvarchar` becomes Text Area (255) for sentences):
+  - Long Text Area(32000): `new_free_text_closed`, `new_free_text_confirmation`, `new_free_text_for_email`, `new_signature`, `new_text_confirmation_payment_later`, `new_text_for_email_payment_later`, `new_internal_comments`, `new_yv_comments`.
+  - Text Area (255): `new_bold_text_confirmation_payment`, `new_bold_text_confirmation_payment_later`, `new_description_payment_later`, `new_description_payment_later_bold`, `new_opening_comment`.
+  - Check the maximum length of the `nvarchar` values in the legacy data first. Anything over 255 moves to Long Text Area.
+  - Open: whether "bold" means formatting (Rich Text Area) or only emphasis done in the template.
 - **Payment options:** `new_is_allow_payments`, `new_is_allow_telephone_payment`, `new_is_deferred_payment`, `new_coupon_*`, `new_discount_type` (finance and coupons).
 - **Resource needs:** `new_is_museum_required`, `new_is_campus_required`, `new_is_big_questions_required`, `new_is_need_event_schedule` (resource scheduling).
-- **Contact details and email:** `new_*_contact`, `new_from_email`.
-- **Zoom:** `new_is_zoom_registration`, `new_zoom_meeting_number`, `new_is_send_link_in_zoom_mail`.
+- **Contact details and email:** `new_*_contact`, `new_from_email`. Contact name, email and phone: no field on `Event__c`; the record page shows them from the linked Contact (Neev's rule for the order, 19.10.2026, see `06_Opportunity.md`), unless a valuable reason is shown. Before accepting, compare the legacy values with the Contact's own on a sample. `new_from_email`: Email type, check Org-Wide Email Addresses first.
+- **Zoom:** `new_is_zoom_registration`, `new_zoom_meeting_number` (Text, not Number, so leading zeros survive), `new_is_send_link_in_zoom_mail`.
 - **Replaced by new objects:** `new_hotel`, `new_supplier` (Event Hotel Allocation and Event Shuttle, register rows 44 and 45).
 - **System fields:** `exchangerate`, `transactioncurrencyid`.
 - **Not clear:** `new_gefen_type`, `new_is_claims_donor`, `new_petty_cash`, `new_malam_code`, `new_is_tuition`, `new_year`, `new_hebrew_year` (candidate for a later task or a drop; ask Anna).

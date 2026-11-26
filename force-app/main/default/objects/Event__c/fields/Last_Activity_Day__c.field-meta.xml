@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Activity_Day__c</fullName>
+    <description>YV20-247 | Doc 3 3.2.1 | Last Activity Day. Legacy new_event_reservations.new_last_activity_day (Date only, legacy datetime).</description>
+    <label>Last Activity Day</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

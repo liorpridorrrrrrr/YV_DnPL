@@ -3,8 +3,8 @@
     <fullName>Is_Telephone_Number_Required__c</fullName>
     <defaultValue>false</defaultValue>
     <description>YV20-247 | Doc 3 3.2.1 | Telephone Number Required. Legacy new_event_reservations.new_is_telephone_number_required.</description>
-    <externalId>false</externalId>
     <label>Telephone Number Required</label>
     <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

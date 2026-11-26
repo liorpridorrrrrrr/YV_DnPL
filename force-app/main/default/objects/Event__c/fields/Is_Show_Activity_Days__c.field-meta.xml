@@ -3,8 +3,8 @@
     <fullName>Is_Show_Activity_Days__c</fullName>
     <defaultValue>false</defaultValue>
     <description>YV20-247 | Doc 3 3.2.1 | Show Activity Days In Registration. Legacy new_event_reservations.new_is_show_activity_days.</description>
-    <externalId>false</externalId>
     <label>Show Activity Days In Registration</label>
     <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>
